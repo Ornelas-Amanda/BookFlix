@@ -1,0 +1,95 @@
+@import url(../CSS/owl/owl.carousel.min.css);
+@import url(../CSS/owl/owl.theme.default.min.css);
+@import url(../CSS/resposive.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color:  rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   font-family: arial black;
+   color: red;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial black;
+    cursor: pointer;
+    color: rgb(234, 236, 236);
+}
+header nav div a:hover{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    padding: 25px 15px;
+    color: rgb(0, 0, 0);
+    transition: all 250ms ease-in;
+}
+
+.livros-do-seculo{
+    margin: 2px ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+      
+}
+.livro{
+    width: 100%;
+    min-height: 572px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%), url(../IMAGENS/livrosPeter.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.livro button{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family:fantasy,Arial, Helvetica, sans-serif;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.livro button:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.box-livro{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+ 
+
+
+
+
